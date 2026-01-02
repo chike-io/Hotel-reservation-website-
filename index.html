@@ -1,0 +1,385 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Online Booking System</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__bar">
+            <div class="nav__header">
+                <div class="logo nav__logo">
+                    <div>H</div>
+                    <span>HOTEL <br>OXYGEN</span>
+
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            <ul class="nav__links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#room">Room</a></li>
+                <li><a href="#feature">Feature</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#news">News</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header" id="home">
+        <div class="section__container header__container">
+            <p class="section__subheader">ABOUT US</p>
+            <h1>The Perfect<br />Place For You</h1>
+            <button class="btn">Take a Tour</button>
+        </div>
+    </header>
+
+    <section class="booking">
+        <div class="section__container booking__container">
+            <form action="/">
+                <div class="input__group">
+                    <label for="arrival">Arrival Date</label>
+                    <input type="text" placeholder="Your Arrival Date">
+                </div>
+                <div class="input__group">
+                    <label for="departure">Departure Date</label>
+                    <input type="text" placeholder="Your Departure Date">
+                </div>
+                <div class="input__group">
+                    <label for="guests">Guests</label>
+                    <input type="text" placeholder="No of Guests">
+                </div>
+                <button class="btn">Check Availability</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="section__container about__container">
+            <div class="about__grid">
+                <div class="about__image">
+                    <img src="assets/about-1.jpg" alt="about">
+                </div>
+                <div class="about__card">
+                    <span><i class="ri-user-line"></i></span>
+                    <h4>Strong Team</h4>
+                    <p>Unlocking hospitality Excellence and Ensure Your Perfect Stay</p>
+                </div>
+            </div>
+            <div class="about__grid">
+                <div class="about__image">
+                    <img src="assets/about-2.jpg" alt="about">
+                </div>
+                <div class="about__card">
+                    <span><i class="ri-calendar-check-line"></i></span>
+                    <h4>Luxury room</h4>
+                    <p>Experience The Ultimate Comfort and Elegance in our Luxury Rooms.</p>
+                </div>
+            </div>
+            <div class="about__content">
+                <p class="section__subheader">ABOUT US</p>
+                <h2 class="section__header">Discover Our Underground</h2>
+                <p class="section__description">
+                    Welcome to Hotel Oxygen, where luxury meets comfort in the heart of the city. Our hotel offers an unparalleled experience with top-notch amenities, exquisite dining options, and exceptional service. Whether you're here for business or leisure, we ensure your stay is memorable and enjoyable.
+                </p>
+                <button class="btn">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="room__container" id="room">
+        <p class="section__subheader">ROOMS</p>
+        <h2 class="section__header">Hand Picked Rooms</h2>
+        <div class="room__grid">
+            <div class="room__card">
+                <img src="assets/room-1.jpg" alt="room" srcset="">
+                <div class="room__card__details">
+                    <div>
+                        <h4>Deluxe Suite</h4>
+                        <p>Experience elevated comfort in our Deluxe Suite, a spacious retreat designed for style and relaxation. Featuring elegant décor, a plush king-size bed, a private lounge area, and modern amenities, this suite offers the perfect blend of luxury and coziness.</p>
+                    </div>
+                    <h3>$399 <span>/night</span> </h3>
+                </div>
+            </div>
+            <div class="room__card">
+                <img src="assets/room-2.jpg" alt="room" srcset="">
+                <div class="room__card__details">
+                    <div>
+                        <h4>Family Suite</h4>
+                        <p>Consists of multiple rooms and a common living area.</p>
+                    </div>
+                    <h3>$599 <span>/night</span> </h3>
+                </div>
+            </div>
+            <div class="room__card">
+                <img src="assets/room-3.jpg" alt="room" srcset="">
+                <div class="room__card__details">
+                    <div>
+                        <h4>Luxury Penthouse</h4>
+                        <p>Top-tier accomodations usually on the highest floor of the hotel</p>
+                    </div>
+                    <h3>$799 <span>/night</span> </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="section__containerintro__container">
+            <div class="intro__content">
+                <p class="section__subheader">INTRO VIDEO</p>
+                <h2 class="section__header">Meet With Our Luxury Place</h2>
+                <p class="section__description">
+                    Wether you're seeking a cozy and exclusive hideaway come and journey beneath the surface, Hotel Oxygen promises
+                </p>
+                <button class="btn">Book Now</button>
+            </div>
+            <div class="intro__video">
+                <video src="assets/luxury.mp4" autoplay muted loop></video>
+            </div>
+        </div>
+    </section>
+
+    <section class="section__container feature__container" id="feature">
+        <p class="section__subheader">FACILITIES</p>
+        <h2 class="section__header">Core Features</h2>
+        <div class="feature__grid">
+            <div class="feature__card">
+                <span><i class="ri-time-line"></i></span>
+                <h4>Quite Hours</h4>
+                <p>We ensure a peaceful environment for our guests during designated quiet hours. We observe quiet hours each evening, this ensures a calm restful atmosphere
+                </p>
+            </div>
+            <div class="feature__card">
+                <span><i class="ri-star-line"></i></span>
+                <h4>Luxury Amenities</h4>
+                <p>Our hotels are equipped with top-of-the-line amenities to ensure a comfortable and enjoyable stay.</p>
+            </div><div class="feature__card">
+                <span><i class="ri-thumb-up-line"></i></span>
+                <h4>High Ratings</h4>
+                <p>We take pride in curating a selection of hotels that consistently receive high ratings and positive reviews from our guests.</p>
+            </div>
+            <div class="feature__card">
+                <span><i class="ri-map-pin-fill"></i></span>
+                <h4>Great Location</h4>
+                <p>Perfectly located in the heart of the area, our hotel puts you just steps away from top attractions, dining, and transport—making it easy to explore and enjoy your stay.</p>
+            </div>
+            <div class="feature__card">
+                <span><i class="ri-wallet-line"></i></span>
+                <h4>Payment Options</h4>
+                <p>Our hotel booking website offers a range of convenient payment options to suit your preferences.</p>
+            </div>
+            /div><div class="feature__card">
+                <span><i class="ri-coupon-line"></i></span>
+                <h4>Special Offers</h4>
+                <p>Wether you're planning a romantic getaway, or a business trip carefully curated special offers cater to all your needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="section__container menu menu__container">
+            <div class="menu__header">
+                <div>
+                    <p class="section__subheader">MENU</p>
+                    <h2 class="section__header">Our Food Menu</h2>
+                </div>
+                <div class="section__nav">
+                    <span><i class="ri-arrow-left-line"></i></span>
+                    <span><i class="ri-arrow-right-line"></i></span>
+                </div>
+            </div>
+            <ul class="menu__items">
+                <li>
+                    <img src="assets/menu-1.jpg" alt="menu">
+                    <div class="menu__details">
+                        <h4>Eggs & Bacon</h4>
+                        <p>It is a culinary innovation that puts a unique spicy beloved breakfast combination</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="assets/menu-2.jpg" alt="menu">
+                    <div class="menu__details">
+                        <h4>Tea or Coffee</h4>
+                        <p>A classic choice for your daily dose of cormfort and calmness.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="assets/menu-3.jpg" alt="menu">
+                    <div class="menu__details">
+                        <h4>Chia Oatmeal</h4>
+                        <p>Our Chia Oatmeal is a wholesome nutrient-packed breakfast delight</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="assets/menu-4.jpg" alt="menu">
+                    <div class="menu__details">
+                        <h4>Fruit Parfait</h4>
+                        <p>Our Fruit Parfait is a delightful culinary masterpiece of freshness and flavour</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="assets/menu-5.jpg" alt="menu">
+                    <div class="menu__details">
+                        <h4>Marmalade Selection</h4>
+                        <p>Our Marmalade Selection is a delectable medley of handcrafted citrus preserves.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="assets/menu-6.jpg" alt="menu">
+                    <div class="menu__details">
+                        <h4>Cheese Plate</h4>
+                        <p>Our Cheese Plate is a masterpiece that celebrates diverse world of cheeses.</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="menu__images">
+                <img src="assets/menu-7.jpg" alt="menu">
+                <img src="assets/menu-8.jpg" alt="menu">
+                <img src="assets/menu-9.jpg" alt="menu">
+            </div>
+            <ul class="menu__banner">
+                <li>
+                    <span><i class="ri-file-text-line"></i></span>
+                    <h4>78k</h4>
+                    <p>Projects are Completed</p>
+                </li>
+                <li>
+                    <span><i class="ri-user-line"></i></span>
+                    <h4>12M</h4>
+                    <p>Active around World</p>
+                </li>
+                <li>
+                    <span><i class="ri-function-line"></i></span>
+                    <h4>04k</h4>
+                    <p>Categories Served</p>
+                </li>
+                <li>
+                    <span><i class="ri-lightbulb-flash-line"></i></span>
+                    <h4>100M</h4>
+                    <p>Ideas Raised Funds</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section__container news__container" id="news">
+        <div class="news__header">
+            <div>
+                <p class="section__subheader">BLOG</p>
+                <h2 class="section__header">News Feeds</h2>
+            </div>
+            <div class="section__nav">
+                    <span><i class="ri-arrow-left-line"></i></span>
+                    <span><i class="ri-arrow-right-line"></i></span>
+            </div>
+        </div>
+        <div class="news__grid">
+            <div class="news__card">
+                <img src="assets/news-1.jpg" alt="news">
+                <div class="news__card__title">
+                    <p>25th February 2025</p>
+                    <p>By Racheal</p>
+                </div>
+                <h4>Exploring local Culinary Gems: A Foodie's Guide.</h4>
+                <p>
+                    Join Racheal as she takes you on a fantastic adventure around the neighborhood surrounding our hotel.
+                </p>
+            </div>
+            <div class="news__card">
+                <img src="assets/news-2.jpg" alt="news">
+                <div class="news__card__title">
+                    <p>25th May 2025</p>
+                    <p>By John</p>
+                </div>
+                <h4>Balancing Mind, Body and Soul at Our Hotel.</h4>
+                <p>
+                    Discover holistic spa treatments, fitness facilities, and mindfulness practices that will leave you feeling refreshed.
+                </p>
+            </div>
+            <div class="news__card">
+                <img src="assets/news-3.jpg" alt="news">
+                <div class="news__card__title">
+                    <p>18th September 2025</p>
+                    <p>By Ruth</p>
+                </div>
+                <h4>Exploring Outdoor Activities Near Our Hotel.</h4>
+                <p>
+                    From hiking and biking trails to water sports and wildlife encounters, she highlights ways to experience nature's wonders.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <div class="logo footer__logo">
+                    <div>H</div>
+                    <span>HOTEL <br>OXYGEN </span>
+                </div>
+                <p class="section__description">
+                    lorem ipsum dolor sit amet consectetur 
+                </p>
+                <ul class="footer__socials">
+                    <li><a href="#"><i class="ri-instagram-line"></i></a></li>
+                    <li><a href="#"><i class="ri-youtube-fill"></i></a></li>
+                    <li><a href="#"><i class="ri-linkedin-fill"></i></a></li>
+                    <li><a href="#"><i class="ri-facebook-fill"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>Services</h4>
+                <div class="footer__links">
+                    <li><a href="#">Virtual Tours</a></li>
+                    <li><a href="#">Online Booking</a></li>
+                    <li><a href="#">Special Offers</a></li>
+                    <li><a href="#">Room Customization</a></li>
+                    <li><a href="#">Concierge Services</a></li>
+                    <li><a href="#">Customer Support</a></li>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4>Contact Us</h4>
+                <div class="footer__links">
+                    <li>
+                        <span><i class="ri-phone-fill"></i></span>
+                        <div>
+                            <h5>Phone Number</h5>
+                            <p>+91 5672347219</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span><i class="ri-record-mail-line"></i></span>
+                        <div>
+                            <h5>Email</h5>
+                            <p>info@hoteloxygen.com</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span><i class="ri-map-pin-2-fill"></i></span>
+                        <div>
+                            <h5>Location</h5>
+                            <p>23 Wall street NY</p>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bar">
+            Copyright © 2025 Web Design Mastery. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+</body>
+</html>
